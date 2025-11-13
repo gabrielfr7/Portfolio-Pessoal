@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfólio - Gabriel Freire</title>
+  <link rel="stylesheet" href="css/style.css">
 
+</head>
+
+<body>
+ 
+  <header>
+    <h1>Gabriel Freire dos Anjos</h1>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" class="secao">
+      <h2>Sobre mim</h2>
+      <figure>
+        <img src="img/fotoprincipal.jpg" alt="Foto de Gabriel Freire" id="fotoPrincipal">
+        <figcaption>Gabriel Freire - Técnico em Informática</figcaption>
+      </figure>
+      <p>Olá! Sou <b>Gabriel Freire</b>, tenho 17 anos e moro em Cachoeira, distrito de Maranguape-CE. 
+        Estudo no <b>IFCE campus Maranguape</b> e curso <b>Técnico em Informática</b>.</p>
+      <p>Gosto de esportes como futsal e vôlei, e sou apaixonado por tecnologia. 
+        Tenho conhecimento em <b>Python</b>, <b>Java</b>, <b>HTML</b>, <b>CSS</b> e <b>MySQL</b>.</p>
+    </section>
+
+    <section id="projetos" class="secao">
+      <h2>Projetos</h2>
+      <div class="projetos-container">
+        <div class="card">
+          <h3>Calculadora em Java</h3>
+          <p>Aplicação com interface gráfica e operações básicas.</p>
+        </div>
+
+        <div class="card">
+          <h3>Semáforo com Arduino</h3>
+          <p>Simulação de semáforos com LEDs e tempo de espera.</p>
+        </div>
+
+        <div class="card">
+          <h3>Agenda de Contatos</h3>
+          <p>Gerenciamento de contatos usando banco de dados MySQL.</p>
+        </div>
+
+        <div class="card">
+          <h3>Empresa Escolar</h3>
+          <p>Projeto fictício de empreendedorismo voltado à tecnologia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="secao">
+      <h2>Habilidades</h2>
+      <table>
+        <tr>
+          <th>Tecnologia</th>
+          <th>Nível</th>
+          <th>Tempo</th>
+        </tr>
+        <tr><td>Python</td><td>Intermediário</td><td>1 ano</td></tr>
+        <tr><td>Java</td><td>Intermediário</td><td>6 meses</td></tr>
+        <tr><td>HTML / CSS</td><td>Intermediário</td><td>8 meses</td></tr>
+        <tr><td>MySQL</td><td>Básico</td><td>6 meses</td></tr>
+      </table>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Gabriel Freire dos Anjos</p>
+    <p>
+      <a href="mailto:freire.anjos08@aluno.ifce.edu.br">freire.anjos08@aluno.ifce.edu.br</a> |
+      <a href="https://github.com/gabrielfr7" target="_blank">github.com/gabrielfr7</a>
+    </p>
+  </footer>
+</body>
+</html>
