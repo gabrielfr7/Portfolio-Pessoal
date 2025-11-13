@@ -1,0 +1,155 @@
+/* ----- geral ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8F1F2;
+  color: #13293D;
+  line-height: 1.6;
+}
+
+/* ----- cabecaçho ----- */
+header {
+  background-color: #006494;
+  color: #E8F1F2;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #E8F1F2;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  background-color: #1B98E0;
+  border-radius: 5px;
+}
+
+/* ----- conteudo ----- */
+main {
+  padding: 20px;
+}
+
+.secao {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: #006494;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1B98E0;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+/* ----- sobre ----- */
+#fotoPrincipal {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #247BA0;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* ----- projetos ----- */
+.projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #247BA0;
+  border-radius: 8px;
+  padding: 15px;
+  width: 230px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #13293D;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* ----- habilidadesprojetos ----- */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+}
+
+th, td {
+  border: 1px solid #247BA0;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #006494;
+  color: white;
+}
+
+/* ----- formulario ----- */
+form {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #247BA0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 1px solid #247BA0;
+  border-radius: 4px;
+}
+
+/* ----- rodape ----- */
+footer {
+  background-color: #13293D;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #1B98E0;
+  text-decoration: none;
+}
