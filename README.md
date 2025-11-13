@@ -29,7 +29,7 @@ O objetivo foi criar um site pessoal para apresentar **informações sobre mim**
 ---
 
 ## 🚀 Acesse o site
-🔗 [https://gabrielfr7.github.io/portfolio/]( https://gabrielfr7.github.io/Portfolio-Pessoal/
+🔗 [https://gabrielfr7.github.io/portfolio/]( https://gabrielfr7.github.io/Portfolio-Pessoal/)
 
 ---
 
